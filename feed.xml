@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CS3281/2 Thematic Systems Project</title>
+    <description>Working on large-scale systems with real impact.
+</description>
+    <link>http://nus-oss.github.io/cs3281/</link>
+    <atom:link href="http://nus-oss.github.io/cs3281/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 30 Jan 2016 08:05:00 +0000</pubDate>
+    <lastBuildDate>Sat, 30 Jan 2016 08:05:00 +0000</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+  </channel>
+</rss>
