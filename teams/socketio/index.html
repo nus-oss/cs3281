@@ -168,19 +168,18 @@
     </ul>
   </li>
   <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
- Implement SourceMaps + Test that it is served
-    <ul>
-      <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+ Implement SourceMaps + Test that it is served</li>
+  <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
  Uglify</li>
-      <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+  <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
  Add Sourcemaps to CDN</li>
-      <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+  <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
  ES6 Refactor for server(classes, self=this, .bind, etc.)</li>
-      <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+  <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
  Monitor Build Size (impact on build size and code base)</li>
-      <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
- Add ‘Files’ to Package.json</li>
-    </ul>
+  <li>
+    <p>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+ Add ‘Files’ to Package.json</p>
   </li>
   <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
  Devtools - Socket.io Inspector
@@ -205,8 +204,12 @@
   <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
  Whiteboard Guide
     <ul>
-      <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
- Color Picker</li>
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ Mouse tracking logic - Week 3, Sun</li>
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ Drawing logic - Week 4, Tue</li>
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ Color Picker - Week 4, Tue</li>
       <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
  Connection Count</li>
       <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
@@ -235,10 +238,12 @@
   <li><a href="https://github.com/nus-fboa2016-si/engine.io-client/commit/f8ae734b736706d771a6da2f2cf55a1eb65b7bbf">Move babel from standalone to webpack loader - engine.io-client</a> - Week 3, Sun</li>
   <li><a href="https://github.com/nus-fboa2016-si/socket.io-client/commit/64eae4b377f37ede2befc35cca2b2ac31ca5e0dc">Move babel from standalone to webpack loader - socket.io-client</a> - Week 3, Sun</li>
   <li><a href="https://github.com/nus-fboa2016-si/socket.io-client/commit/64eae4b377f37ede2befc35cca2b2ac31ca5e0dc">Added sourcemap for socket.io-client</a> - Week 3, Sun</li>
-  <li><a href="https://github.com/nus-fboa2016-si/whiteboard">Set up GUI for whiteboard example</a> - Week 3, Sun
+  <li><a href="https://github.com/nus-fboa2016-si/whiteboard">Set up front-end UI and interactions for whiteboard example</a> - Week 3, Sun
     <ul>
       <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/5cd27bc77a4ab64a23c31a804b52a307a5cfafc6">Set up mouse tracking</a> - Week 3, Sun</li>
       <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/83381f3be832990853b3a299fcb9c3a5d74095ca">Mapped 2D mouse position to 3D scene</a> - Week 3, Sun</li>
+      <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/ee503f3192747391213a07ba6bec3fa33e0140ac">Implemented simple color picker</a> - Week 4, Tue</li>
+      <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/de3329b34e4c9ebb319d895ebed20e284f2bbcb8">Set up drawing logic</a> - Week 4, Tue</li>
     </ul>
   </li>
 </ul>
@@ -251,13 +256,16 @@
 <h3 id="yijinl-leow-yijin">@YijinL (Leow Yijin)</h3>
 
 <h4 id="contribution-to-project-si-1">Contribution to project SI</h4>
-<p>Note: links to github commits represent the last commit for that contribution
-* <a href="https://docs.google.com/presentation/d/1OHRrAYRE8M2gV4wg2MwYk0BIfbEURwtMt17og5wWTfE/edit?usp=sharing">Prepare textual slides and architecture diagrams for architecture presentation</a> - Week 2, Sat
-* engine.io-client: <a href="https://github.com/nus-fboa2016-si/engine.io-client/pull/1">Set up gulp build file under browserify</a> - Week 3, Thu
-* engine.io-client: <a href="https://github.com/nus-fboa2016-si/engine.io-client/commit/fad7e5b450566b86105421eb444b39bed4d0345a">Merge babel, webpack with gulp + bugfix</a> - Week 3, CS
-* engine.io-client: <a href="https://github.com/nus-fboa2016-si/engine.io-client/commit/9079369603a6f22d9ea445a485b3fbb9466e82b8">Clean up zuul browser testing and switched to child_process.exec for running zuul script</a> - Week 3, CS
-* engine.io: <a href="https://github.com/nus-fboa2016-si/engine.io/commit/06c3e8cea4158724aa86c012cc70ea1d3df05a93">Combine babel into gulpfile + minor refactoring</a> - Week 3, CS
-* <a href="https://github.com/nus-fboa2016-si/socket.io/commit/920412587b245c4ae5f7c95a583dd37f20c2d904">socket.io</a>, <a href="https://github.com/nus-fboa2016-si/engine.io/commit/49fac3af62693cf3cda40da52c09f37845df04e5">engine.io</a>, <a href="https://github.com/nus-fboa2016-si/engine.io/commit/49fac3af62693cf3cda40da52c09f37845df04e5">engine.io-client</a>: Added eslint support + standardise gulpfiles - Week 3, CS</p>
+<p>Note: links to github commits represent the last commit for that contribution</p>
+
+<ul>
+  <li><a href="https://docs.google.com/presentation/d/1OHRrAYRE8M2gV4wg2MwYk0BIfbEURwtMt17og5wWTfE/edit?usp=sharing">Prepare textual slides and architecture diagrams for architecture presentation</a> - Week 2, Sat</li>
+  <li>engine.io-client: <a href="https://github.com/nus-fboa2016-si/engine.io-client/pull/1">Set up gulp build file under browserify</a> - Week 3, Thu</li>
+  <li>engine.io-client: <a href="https://github.com/nus-fboa2016-si/engine.io-client/commit/fad7e5b450566b86105421eb444b39bed4d0345a">Merge babel, webpack with gulp + bugfix</a> - Week 3, CS</li>
+  <li>engine.io-client: <a href="https://github.com/nus-fboa2016-si/engine.io-client/commit/9079369603a6f22d9ea445a485b3fbb9466e82b8">Clean up zuul browser testing and switched to child_process.exec for running zuul script</a> - Week 3, CS</li>
+  <li>engine.io: <a href="https://github.com/nus-fboa2016-si/engine.io/commit/06c3e8cea4158724aa86c012cc70ea1d3df05a93">Combine babel into gulpfile + minor refactoring</a> - Week 3, CS</li>
+  <li><a href="https://github.com/nus-fboa2016-si/socket.io/commit/920412587b245c4ae5f7c95a583dd37f20c2d904">socket.io</a>, <a href="https://github.com/nus-fboa2016-si/engine.io/commit/49fac3af62693cf3cda40da52c09f37845df04e5">engine.io</a>, <a href="https://github.com/nus-fboa2016-si/engine.io/commit/49fac3af62693cf3cda40da52c09f37845df04e5">engine.io-client</a>: Added eslint support and standardise gulpfiles - Week 3, CS</li>
+</ul>
 
 <h3 id="mikelimantara-michael-limantara">@mikelimantara (Michael Limantara)</h3>
 
