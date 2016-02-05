@@ -223,14 +223,31 @@ code {
     @media screen and (max-width: 800px) {
       .post-content h3 {
         font-size: 22px; } }
-  .post-content h4, .post-content h5, .post-content h6, .post-content h7, .post-content h8 {
+  .post-content h4 {
     font-size: 20px;
     font-family: 'Source Sans Pro', sans-serif;
     padding: 0px 10px;
     margin-bottom: 20px; }
     @media screen and (max-width: 800px) {
-      .post-content h4, .post-content h5, .post-content h6, .post-content h7, .post-content h8 {
+      .post-content h4 {
         font-size: 18px; } }
+  .post-content h5 {
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px 10px;
+    margin-bottom: 20px; }
+    @media screen and (max-width: 800px) {
+      .post-content h5 {
+        font-size: 16px; } }
+  .post-content h6, .post-content h7, .post-content h8 {
+    font-size: 16px;
+    color: #777;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px 10px;
+    margin-bottom: 20px; }
+    @media screen and (max-width: 800px) {
+      .post-content h6, .post-content h7, .post-content h8 {
+        font-size: 16px; } }
   .post-content .highlight {
     font-family: Consolas;
     color: #333;
