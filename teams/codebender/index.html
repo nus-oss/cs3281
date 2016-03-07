@@ -257,12 +257,12 @@
  Create ApiViewsController</li>
     </ul>
   </li>
-  <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+  <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  <strong>Milestone 4</strong> - Due Week 7, Sun
     <ul>
-      <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  Component integration</li>
-      <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  Create integration tests</li>
     </ul>
   </li>
@@ -277,13 +277,25 @@
  Create integration tests for partner and preferences</li>
     </ul>
   </li>
-  <li>Buffer / minor features - Week 9 - 13</li>
-  <li>Enhancement
+  <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+ <strong>Milestone 6</strong> - Due Week 10, Sun
     <ul>
+      <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+ Migrate existing built-in libraries into external libraries with a boolean to indicate if they’re built-in</li>
+      <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+ Remove duplicate library files and modify v1 API to use v2 library files</li>
       <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
  Handle multiple built-in example versions</li>
     </ul>
   </li>
+  <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+ <strong>Milestone 7</strong> - Due Week 12, Sun
+    <ul>
+      <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+ Migrate libraries from production database and filesystem into v2</li>
+    </ul>
+  </li>
+  <li>Week 13 - Buffer time</li>
 </ul>
 
 <h2 id="workplan-for-graphite">Workplan for Graphite</h2>
@@ -325,11 +337,11 @@
  Create GUI for graph plotting, which can be put into IDE - Week 7</li>
   <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  add new pattern: auto-generated timestamp as X-axis - Week 7</li>
-  <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+  <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  Documenation (on patterns and user manual) - Week 8</li>
-  <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+  <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  Pause and restart the chart plotting - Week 8</li>
-  <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+  <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  CSV Import - Week 8</li>
   <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
  User costumization of axis name, data name,etc - Week 9</li>
@@ -370,6 +382,16 @@
   <li>Recess Week, Fri - Implement v2 of searchAction API</li>
   <li>Recess Week, Fri - Implement v2 of downloadAction API</li>
   <li>Recess Week, Fri - Refactored existing code</li>
+  <li>Week 7, Mon - Fix Travis CI integration on forked repository</li>
+  <li>Week 7, Tue - Fix miscellaneous bugs in codebase</li>
+  <li>Week 7, Tue - Add test for adding of Git libraries</li>
+  <li>Week 7, Tue - Add handling of version notes along with tests</li>
+  <li>Week 7, Tue - Implement test for adding of Zipped libraries</li>
+  <li>Week 7, Tue - Wrote test for adding of library from Git subdirectory</li>
+  <li>Week 7, Tue - Wrote test for adding of large libraries</li>
+  <li>Week 7, Tue - Enhance addNewLibrary API to update the last commit of a library when a newer commit is added</li>
+  <li>Week 7, Tue - Wrote test for adding of Git release</li>
+  <li>Week 7, Tue - Wrote test for updating of a library’s last commit</li>
 </ul>
 
 <h4 id="contribution-to-minor-project---teammates">Contribution to minor project - Teammates</h4>
@@ -377,6 +399,23 @@
   <li>Week 6, Sat - Set up development environment and staging website at <a href="http://teammates-kaiyuan.appspot.com/">http://teammates-kaiyuan.appspot.com/</a></li>
   <li>Week 6, Sun - Development process understood</li>
   <li>Week 6, Sun - Resolved <a href="https://github.com/TEAMMATES/teammates/issues/4645">issue #4645</a> in <a href="https://github.com/TEAMMATES/teammates/pull/4809">PR #4809</a> (Merged)</li>
+  <li>Week 7, Tue - Resolved <a href="https://github.com/TEAMMATES/teammates/issues/4006">issue #4006</a> in <a href="https://github.com/TEAMMATES/teammates/pull/4849">PR #4849</a></li>
+  <li>Week 7, Tue - Raised and resolved <a href="https://github.com/TEAMMATES/teammates/issues/4850">issue #4850</a> in <a href="https://github.com/TEAMMATES/teammates/pull/4851">PR #4851</a></li>
+  <li>Week 7, Tue - Completed vulnerability assessment on Teammates</li>
+  <li>Week 7, Tue - Raised 3 security vulnerabilities discovered (along with recommendations), including:
+    <ul>
+      <li>A recommendation to use HTTPS in links sent via email (<a href="https://github.com/TEAMMATES/teammates/issues/4852">issue #4852</a>)</li>
+      <li>A recommendation to enforce HTTPS on all pages (<a href="https://github.com/TEAMMATES/teammates/issues/4853">issue #4853</a>)</li>
+      <li>A recommendation to validate the institution name of an instructor at registration (<a href="https://github.com/TEAMMATES/teammates/issues/4854">issue #4854</a>)</li>
+    </ul>
+  </li>
+  <li>Week 7, Tue - Other (less important) recommendations include:
+    <ul>
+      <li>Use CBC mode-of-operation for AES encryption instead of ECB (ECB encryption can be exploited under certain obscure conditions)</li>
+      <li>Issue different keys for different surveys for unregistered students (so that an attacker who possesses a student key would not be able to continuously exploit the same key)</li>
+      <li>Introduce a more discreet channel for reporting security vulnerabilities (instead of posting issues on Github)</li>
+    </ul>
+  </li>
 </ul>
 
 <h4 id="technology-expertise-in-information-security">Technology expertise in Information Security</h4>
@@ -391,6 +430,9 @@
   <li>Attended security wednesday talk on <a href="https://www.facebook.com/events/329195357204132/">“Building next generation security tools with Unicorn engine”</a></li>
   <li>Attended <a href="http://www.meetup.com/Null-Singapore-The-Open-Security-Community/events/228606152/">Null Singapore monthly meetup</a> on DDOS and DNS Hijacking</li>
   <li>Write-up on a cryptographic challenge in Insomni’hack 2016 (<a href="http://cs3281-2.blogspot.com/2016/02/te-insomnihack-2016-teaser-bring-noise.html">blog post on the challenge</a>)</li>
+  <li>Resolved XSS vulnerability on Teammates (<a href="https://github.com/TEAMMATES/teammates/pull/4849">PR #4849</a>)</li>
+  <li>Conducted a vulnerability assessment on Teammates and raised discovered security issues to the core developers (<a href="https://github.com/TEAMMATES/teammates/issues/4852">issue #4852</a>, <a href="https://github.com/TEAMMATES/teammates/issues/4853">issue #4853</a> and <a href="https://github.com/TEAMMATES/teammates/issues/4854">issue #4854</a>)</li>
+  <li>Participated in <a href="http://www.meetup.com/Null-Singapore-The-Open-Security-Community/events/229196202/">Null Singapore’s special meetup</a> on lessons learnt from Rowhammer for future security research</li>
 </ul>
 
 <h3 id="bsmmoon-moon-seokmin-team-lead---week-4---8">@bsmmoon (Moon Seokmin) (Team Lead - Week 4 - 8)</h3>
@@ -413,6 +455,10 @@
   <li>Week 6, Sun - Implemented ListApiCommand <a href="https://github.com/codebendercc/eratosthenes/pull/44/files">PR #45</a></li>
   <li>Recess Week - Fixed ListApiCommand which was wrongly using the old schema models (<a href="https://github.com/nus-fboa2016-CB/eratosthenes/pull/6">PR</a>)</li>
   <li>Recess Week - Implemented ApiViewsController’s newLibraryAction and its own handler NewLibraryHandler (<a href="https://github.com/nus-fboa2016-CB/eratosthenes/pull/5">PR</a>)</li>
+  <li>Week 7, Wed - Added test for testViewBuiltinExample</li>
+  <li>Week 7, Wed - Added test for testViewExternalZipLibrary</li>
+  <li>Week 7, Wed - Added test for testViewExternalGitLibrary</li>
+  <li>Week 7, Sun - Refactoring and pruning of tests</li>
 </ul>
 
 <h4 id="contribution-to-minor-project---hubturbo">Contribution to minor project - HubTurbo</h4>
@@ -430,7 +476,8 @@
 <h5 id="short-term-plan">Short Term Plan</h5>
 <ul>
   <li>Online tutorials</li>
-  <li>Go through Ruby on Rails Tutorial by Hartl</li>
+  <li>Read Metaprogramming Ruby by Paolo Perrotta</li>
+  <li>Have a look at Ruby on Rails Tutorial by Hartl</li>
   <li>Small project</li>
 </ul>
 
@@ -446,6 +493,9 @@
   <li>Finished course on Ruby on Codecademy</li>
   <li>Finished course on Rails on Codecademy</li>
   <li>Reading Ruby on Rails Tutorial</li>
+  <li>Metaprogramming Ruby Chapter 1 Monday: The Object Model</li>
+  <li>Wrote Metaprogramming in Ruby Introduction Summary <a href="https://www.blogger.com/blogger.g?blogID=8015375721045239679#editor/target=post;postID=1719897351251213357;onPublishedMenu=posts;onClosedMenu=posts;postNum=1;src=postname">Link</a></li>
+  <li>Wrote Metaprogramming in Ruby Chapter 1 Sumary <a href="https://www.blogger.com/blogger.g?blogID=8015375721045239679#editor/target=post;postID=7217799080200561162;onPublishedMenu=posts;onClosedMenu=posts;postNum=0;src=postname">Link</a></li>
 </ul>
 
 <h3 id="alexyaoyang-alex-yao">@alexyaoyang (Alex Yao)</h3>
@@ -508,6 +558,11 @@
   <li>Recess Week - write unit test (coverage 100%)</li>
   <li>Recess Week - add new pattern: data with x-axis</li>
   <li>Recess Week - refactor all the code done by previous group</li>
+  <li>Week 7, Wed - add start/pause function</li>
+  <li>Week 7, Wed - fix a serious bug with dataparser</li>
+  <li>Week 7, Wed - unit test</li>
+  <li>Week 7, Fri - CSV import</li>
+  <li>Week 7, Sun - Documentation(readme.md)</li>
 </ul>
 
 <h4 id="contribution-to-minor-project---coursemology">Contribution to minor project - Coursemology</h4>
@@ -519,9 +574,10 @@
 <h4 id="technology-expertise-in-ruby-on-rails">Technology expertise in Ruby on Rails</h4>
 <ul>
   <li>Publish self-written Ruby Gem <a href="https://rubygems.org/gems/mthAuth">mthAuth</a> - Recess Week</li>
+  <li><a href="http://blog.nus.edu.sg/matanghao/2016/02/29/my-first-ruby-gem-mthauth/">My first Ruby Gem</a> - Week 7</li>
 </ul>
 
-<h3 id="gisonrg-jiang-sheng">@gisonrg (Jiang Sheng)</h3>
+<h3 id="gisonrg-jiang-sheng-team-lead---week-9---12">@gisonrg (Jiang Sheng) (Team Lead - Week 9 - 12)</h3>
 <ul>
   <li>Week 2, Tues - Received project details</li>
   <li>Week 2, Thurs - Sun - Setup development environment, learning <a href="https://symfony.com/">Symfony framework</a> by <a href="http://tutorial.symblog.co.uk/">tutorial</a></li>
@@ -554,6 +610,9 @@
   <li>Recess Week - Implement views for adding new library; also help to implement the logic for adding new library. <a href="https://github.com/nus-fboa2016-CB/eratosthenes/commit/6dfa4f84fe348a21b3154590d6351e03c572e5a6">Ref</a></li>
   <li>Recess Week - Add testcases to strengthen the code coverage (Now &gt;90% for most ApiCommands)</li>
   <li>Recess Week - Add functional tests to new views (view, search, download) <a href="https://github.com/nus-fboa2016-CB/eratosthenes/blob/v2-api-development/Symfony/src/Codebender/LibraryBundle/Tests/Controller/ApiViewsControllerTest.php">Ref</a></li>
+  <li>Week 7, Tue - Implement adding library from Github Releases (frontend, logic) <a href="https://github.com/nus-fboa2016-CB/eratosthenes/pull/16">PR</a></li>
+  <li>Week 7, Sat - Implement auto populating library meta when adding version for existing library <a href="https://github.com/codebendercc/eratosthenes/pull/50">PR</a></li>
+  <li>Week 7, Sun - UI improvement for version section <a href="https://github.com/codebendercc/eratosthenes/pull/51">PR</a></li>
 </ul>
 
 <h4 id="contribution-to-minor-project-teammates">Contribution to minor project Teammates</h4>
@@ -561,7 +620,8 @@
   <li>Project set up / workflow understand - Week 5, Sat</li>
   <li>(Merged) PR <a href="https://github.com/TEAMMATES/teammates/pull/4807">#4807</a> for issue <a href="https://github.com/TEAMMATES/teammates/issues/3465">#3465</a> -Week 6, Sat</li>
   <li>(Merged) PR <a href="https://github.com/TEAMMATES/teammates/pull/4810">#4810</a> for issue <a href="https://github.com/TEAMMATES/teammates/issues/3922">#3922</a> -Week 6, Sun</li>
-  <li>(Ongoing) Working on <a href="https://github.com/TEAMMATES/teammates/issues/4538">Issue#4538</a> -Recess Week</li>
+  <li>(Merged) PR <a href="https://github.com/TEAMMATES/teammates/pull/4839">#4839</a> for issue <a href="https://github.com/TEAMMATES/teammates/issues/4538">#4538</a> - Recess Week</li>
+  <li>(Merged) PR <a href="https://github.com/TEAMMATES/teammates/pull/4893">#4893</a> for issue <a href="https://github.com/TEAMMATES/teammates/issues/4858">#4858</a> - Week 7, Fri</li>
 </ul>
 
 <h6 id="past-contribution-to-hubturbo">Past Contribution to HubTurbo</h6>
@@ -570,7 +630,7 @@
 </ul>
 
 <h4 id="technology-expertise-in-nodejs">Technology expertise in Node.js</h4>
-<p>######Short-term plan:
+<p>###### Short-term plan:
 1. Understand advanced JavaScript topic. <a href="https://github.com/getify/You-Dont-Know-JS">You Don’t Know JS</a> is a good place to start.
 2. Master Node.js and get familiar with its core APIs. Understand its best practices and its limits.
 3. Get familiar with Node’s popular frameworks and tools, such as <a href="http://expressjs.com/">Express</a>, <a href="http://gulpjs.com/">Gulp</a> and <a href="https://github.com/kriskowal/q">q</a>, and be able to use them in personal projects.
@@ -590,13 +650,15 @@
   <li><a href="http://blog.gisonrg.me/2016/node-js-what-why-how/">Node.js: what, why, how</a>: a blog post to introduce Node.js</li>
   <li>Leanring Node.js topics by attempting workshops provided on <a href="http://nodeschool.io">NodeSchool.io</a>. <a href="https://github.com/Gisonrg/collections/tree/master/nodeschool">My solutions</a>
     <ul>
-      <li><a href="https://github.com/Gisonrg/collections/tree/master/nodeschool/learnyounode">~~learnyounode~~</a></li>
-      <li><a href="https://github.com/Gisonrg/collections/tree/master/nodeschool/promiseit">~~Promise It Won’t Hurt~~</a></li>
-      <li>Count to 6</li>
-      <li>Tower of Babel</li>
+      <li><a href="https://github.com/Gisonrg/collections/tree/master/nodeschool/learnyounode"><del>learnyounode</del></a></li>
+      <li><a href="https://github.com/Gisonrg/collections/tree/master/nodeschool/promiseit"><del>Promise It Won’t Hurt</del></a></li>
+      <li><a href="https://github.com/Gisonrg/collections/tree/master/nodeschool/tower-of-babel"><del>Tower of Babel</del></a> - Week 7, Fri</li>
     </ul>
   </li>
   <li><a href="http://blog.gisonrg.me/2016/interesting-js-question/">An interesting JavaScript interview question</a>: a blog post starting from a JavaScript interview question to share my learning and understanding of some JavaScript features like hoisting, “this” keyword, and scope.</li>
+  <li><a href="http://blog.gisonrg.me/2016/fix-mysterious-travis-build-failure-for-node-application-js/">Fix a mysterious travis build failure for a Node application </a>: A blog post about how I investigated and fix an interesting build failure for <a href="https://github.com/Unblocker/Unblock-Youku">Unblock-Youku</a>. It’s related to Travis, Node and headless browser test. <a href="https://github.com/Unblocker/Unblock-Youku/pull/613">Merged Fix</a> - Week 7, Sat</li>
+  <li>Create my first npm package: <a href="https://github.com/Gisonrg/express-github-webhook/">express-github-webhook</a>, a middleware for Express to help handle Github Webhook events. - Week 7, Sun</li>
+  <li>Working on a JavaScript project for module <a href="https://github.com/Gisonrg/ER-diagram-editor">CS4224</a> to build a ER diagram editor.</li>
   <li>(Ongoing) Wrtiing a blog post to share my findings for Promise vs Callback.</li>
 </ul>
 
