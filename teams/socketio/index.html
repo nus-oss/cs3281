@@ -213,7 +213,7 @@
  deliver devtools MVP - Recess Week</li>
         </ul>
       </li>
-      <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  implement mockups of devtool
         <ul>
           <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
@@ -224,8 +224,17 @@
  Display error packets in devtools</li>
           <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  ~~HTML and CSS structure according to mockups - Week 5, Sun~~ (Mockups not given, but we have an idea of how it roughly looks and implemented it)</li>
+        </ul>
+      </li>
+      <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+ refactor devtool
+        <ul>
+          <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ project set-up - Week 8</li>
           <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
- JS Logic wiring - Week 8, Sun</li>
+ build UI according to mockup - Week 11</li>
+          <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+ integrate ESlint - Week 11</li>
         </ul>
       </li>
     </ul>
@@ -259,6 +268,8 @@
  Server-side In-memory Buffer + Cap (pruning) - Recess Week</li>
       <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  Particles for other drawing participants - Recess Week</li>
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ Replace 3rd party color picker with HTML5 native color input - Week 7, Sat</li>
       <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
  Scale/tranformation for mobile devices with portrait viewport</li>
       <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
@@ -299,12 +310,14 @@
   <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/eca548045f8a83d6d3674408c9f610351439b9e7">Fixed color picker on mobile</a> - Week 6, Sun</li>
   <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/d8a8ba7d945f19a1a8d4426ff5f65222b725d7fe">Handled mouse leave window and mouse release outside window</a> - Week 6, Sun</li>
   <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/67a8208cfb8011df08250216858d01487d368682">Implemented server-side buffer</a> - Recess Week, Sat</li>
+  <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/daf835de5fd95d11af9d1c8fc47aac15507549fe">Replace 3rd-party color picker with HTML5 native color input</a> - Week 7, Sat</li>
 </ul>
 
 <h4 id="contribution-to-project-teammates-minor-project">Contribution to project Teammates (Minor Project)</h4>
 <ul>
   <li><a href="https://github.com/paradite/teammates">Fork and set up project</a> - Week 4, Fri</li>
   <li><a href="https://github.com/TEAMMATES/teammates/pull/4830">First timer PR - Remove testng-old.xml from the repo</a> - Recess Week, Sat</li>
+  <li><a href="http://4-18-dot-teammates-paradite.appspot.com/visitors.html">POC for visitor’s map feature</a>, <a href="https://github.com/paradite/teammates/commit/de30d85a44cfe5b29ecbef2ffdf73ef8354c5702">commit</a> - Week 7, Sun</li>
 </ul>
 
 <h4 id="technology-expertise-in-web-based-data-visualization">Technology expertise in web-based data visualization</h4>
@@ -351,7 +364,7 @@
 * <a href="https://github.com/nus-fboa2016-si/socket.io/commit/920412587b245c4ae5f7c95a583dd37f20c2d904">socket.io</a>, <a href="https://github.com/nus-fboa2016-si/engine.io/commit/49fac3af62693cf3cda40da52c09f37845df04e5">engine.io</a>, <a href="https://github.com/nus-fboa2016-si/engine.io/commit/49fac3af62693cf3cda40da52c09f37845df04e5">engine.io-client</a>: Added eslint support and standardise gulpfiles - Week 3, CS
 * engine.io-client: <a href="https://github.com/nus-fboa2016-si/engine.io-client/commit/46b28e0a0c9c3b36f208b22eaee7a8f75037b268">auto cleaning of test generated files</a> - Week 5, Wed</p>
 
-<h6 id="whiteboard-demoexample-backend">Whiteboard demo/example backend</h6>
+<h6 id="whiteboard-demo">Whiteboard demo</h6>
 <ul>
   <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/0008a83cb0a3a1d3d133172a4458e8b8e9c8c2ec">Track connections and line drawing coordinates</a> - Week 4, Sat</li>
   <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/21397aca5bbb7dbf41a82e968a7d3646edd8b5b3">Every client can now see each other’s drawings</a> - Week 4, Sun</li>
@@ -378,6 +391,15 @@
   <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/1ef3cecc05c0fb9b611acea78c715a934215335d">Added middleware code to transform mouse event data relative to containing element</a> - Week 6, Sat</li>
   <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/b38260dd30a16d54f01ce85a5dfbfea636cefdcb">Fixed z-index generator function to work for non-chrome browsers</a> - Week 6, Sun</li>
   <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/854e597843c31d07dc1b48f1b8f561abc2cc1428">Added support for particle effects from other users drawing</a> - Recess Week, Sun</li>
+  <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/dff683550b0127e1ddd29dd5bbe3e33d4d694d8e">Updated node express server to also serve guide versions through /guide/vX/index.html</a> - Week 8, Mon</li>
+</ul>
+
+<h6 id="whiteboard-guide">Whiteboard guide</h6>
+<ul>
+  <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/0c9049d5492871ffe09420624082b95d0b22e2f7">Differentiate feature list between guide and demo versions</a> - Week 7, Sat</li>
+  <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/7c210b2243376d44c2be5dffe6f1f7f065b8ccd0">Plan milestones in guide</a> - Week 8, Mon</li>
+  <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/2b1d0442f787ef92a477804090dd7bfe8007ed09">Finish all html/js/package.json resource files and record of shell commands for guide milestone 1</a> - Week 8, Mon</li>
+  <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/933141a96c461189a12340f4297c3e73a58f3119">Prepare skeleton of resource files for guide milestones 2-4</a> - Week 8, Mon</li>
 </ul>
 
 <h4 id="contribution-to-minor-project-hubturbo">Contribution to minor project HubTurbo</h4>
@@ -421,7 +443,7 @@
   <li><a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/79bb92e155f9612d5f6ab1ac60ae8c4bbecee490">Refactor: Remove dist folders and include in .gitignore</a> - Week 6, Wed</li>
   <li><a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/86bc516886abb89f6ad013894870f4ea48dce9e8">Receive, save and display a list of IO Managers in devtools panel in a simple format</a> - Week 6, Wed</li>
   <li><a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/b1a02c1e2c1187470aec35f012034364facb27d9">Add gulp watch task to automate bundling with browserify</a> - Week 6, Wed</li>
-  <li>[Add error handling for gulp browserify task](https://github.com/nus-fboa2(016-si/socketio-devtool/commit/4c3b7c076ffed404d418dc31db0f2a796860f38c) - Week 6, Thurs</li>
+  <li><a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/4c3b7c076ffed404d418dc31db0f2a796860f38c">Add error handling for gulp browserify task</a> - Week 6, Thurs</li>
   <li><a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/1f941df3307062ec4537d3f7ea8df84740ab9e4e">Receive, save and display a list of sockets for a specific manager on clicked</a> - Week 6, Fri</li>
   <li><a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/4cd4d77c4cf2e59ad8e3216779591ca334f3cfc2">Parse the packets received and save them, according to created/received as well as its types</a> - Recess Week, Thur</li>
   <li><a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/3b13d4babafec75f37868073c243310b3af3d405">Added timestamp before emitting packets to devtools</a> - Recess Week, Fri</li>
@@ -440,9 +462,13 @@
   <li><a href="https://github.com/mikelimantara/repo">Setup project (In-Progress)</a> - Week 3, Code Sprint</li>
   <li>Complete project setup to pass all the tests - Week 4, Wed</li>
   <li><a href="https://github.com/TEAMMATES/teammates/pull/4811">Fix Issue #4802</a> - Week 6, Sun (PR Merged)</li>
+  <li><a href="https://github.com/TEAMMATES/teammates/pull/4866">Fix Issue #3979</a> - Week 7, Wed (PR Merged)</li>
 </ul>
 
 <h4 id="tech-expertise-plan-mobile-development">Tech Expertise Plan: Mobile Development</h4>
+<ul>
+  <li>Blogpost about Android Project Structure and Naming Convention Guidelines <a href="https://medium.com/@mikelimantara/overview-of-android-project-structure-and-naming-conventions-b08f6d0b7291#.z58j2vliw">link</a></li>
+</ul>
 
 <h5 id="deliverable-could-be-in-the-form-of">Deliverable could be in the form of:</h5>
 <ul>
@@ -482,6 +508,7 @@
   <li>Deliver dev-tool MVP together with Michael <a href="https://github.com/nus-fboa2016-si/socketio-devtool">link</a> - Recess Week</li>
   <li>Display Error to user <a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/c21991bdc07c87ad33a5fc600499ff748a3af976">link</a> - Recess Week</li>
   <li><a href="https://github.com/nus-fboa2016-si/socketio-devtool/blob/master/README.md">README</a> for dev-tool - Recess Week</li>
+  <li>Project setup for SI-devtool refactor <a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/ed0472ac0f488333ba99b999e1f9d6dcfe39a79a">link</a> - Week 8, Mon</li>
 </ul>
 
 <h4 id="contribution-to-minor-project-hubturbo-1">Contribution to minor project HubTurbo</h4>
@@ -517,6 +544,9 @@
   <li><a href="https://github.com/socketio/engine.io-client/commit/f22f990f1514521ebc8e0180f4791f26fbf79950">Fix engine.io-client webpack bundling where the <code>eio</code> global is not exposed</a>(link shows last commit) - Week 3, Sun</li>
   <li>Doing clean up and miscellaneous fixes on outstanding PRs for <a href="https://github.com/nus-fboa2016-si/engine.io-client/commit/db5e3168540b0516783598bd125f28c62313c809">engine.io-client</a> and <a href="https://github.com/nus-fboa2016-si/socket.io-client/commit/c7deec13cb32dfd6042f3c2f730d31a715c28a55">socket.io-client</a> (link shows last commits) - Week 5, Friday</li>
   <li>Add ESLint to socket.io-client, <a href="https://github.com/socketio/socket.io-client/pull/951">PR</a> sent - Recess Week, Sunday</li>
+  <li>Add ESLint to engine.io-client, <a href="https://github.com/socketio/engine.io-client/pull/458">PR</a> merged - Week 7, Wed</li>
+  <li>Sent <a href="https://github.com/socketio/engine.io-client/pull/460">PR</a> for some minor gulp task refactoring on engine.io-client - Week 7, Sat</li>
+  <li>Sent PR to add gulp and babel to <a href="https://github.com/socketio/engine.io/pull/384">engine.io</a> and <a href="https://github.com/socketio/socket.io/pull/2471">socket.io</a> repos - Week 7, Sat</li>
 </ul>
 
 <h4 id="contribution-to-project-pl">Contribution to project PL</h4>
@@ -530,6 +560,7 @@
 <h5 id="current-contribution-to-expertise">Current contribution to expertise</h5>
 <ul>
   <li><a href="http://stackoverflow.com/questions/30538019/git-merge-changes-between-upstream-brnches/30541348#30541348">Answered a question on Stack Overflow about Git workflow</a></li>
+  <li>Blogpost on <a href="http://digawp.blogspot.sg/2016/03/git-tips-and-best-practices.html">Git tips and best practices</a></li>
 </ul>
 
 <h5 id="short-term-plan-4">Short term plan</h5>
