@@ -173,18 +173,15 @@
       <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  ESLint + Gulp Task + Syntax - Week 5, Sun</li>
       <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
- Implement SourceMaps + Test that it is served - Week 5, Sun</li>
+ Implement SourceMaps + Test that it is served - Week 5, Sun (Pending PR merge)</li>
       <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
- Uglify</li>
+ Uglify (Pending sourcemap PR)</li>
       <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
- Add Sourcemaps to CDN</li>
+ Add Sourcemaps to CDN (Pending sourcemap PR)</li>
       <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
- ES6 Refactor for server(classes, self=this, .bind, etc.)
-        <ul>
-          <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
- Compact support</li>
-        </ul>
-      </li>
+ Compact support for old node versions (Pending PR merge)</li>
+      <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+ ES6 Refactor for server(classes, self=this, .bind, etc.)</li>
       <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
  Monitor Build Size (impact on build size and code base)</li>
       <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
@@ -299,6 +296,7 @@
   <li><a href="https://github.com/nus-fboa2016-si/socket.io/commit/e59220a43b5cbb1372343d9724aa435750578e87">Serve sourcemap from socket.io server and ensure it is working</a> - Week 8, Thu</li>
   <li><a href="https://github.com/socketio/socket.io/pull/2482">Sourcemap PR for socket.io</a> - Week 8, Thu</li>
   <li><a href="https://github.com/socketio/socket.io-client/pull/953">Sourcemap PR for socket.io-client</a> - Week 8, Thu</li>
+  <li><a href="https://github.com/socketio/socket.io/pull/2496">Compat version test PR for socket.io</a> - Week 9, Sat</li>
 </ul>
 
 <h6 id="set-up-front-end-ui-and-interactions-for-whiteboard-example-repohttpsgithubcomnus-fboa2016-siwhiteboard">Set up front-end UI and interactions for whiteboard example: <a href="https://github.com/nus-fboa2016-si/whiteboard">repo</a></h6>
@@ -317,15 +315,20 @@
 </ul>
 
 <h4 id="contribution-to-project-teammates-minor-project">Contribution to project Teammates (Minor Project)</h4>
-<p>##### General
-  * <a href="https://github.com/paradite/teammates">Fork and set up project</a> - Week 4, Fri
-  * <a href="https://github.com/TEAMMATES/teammates/pull/4830">First timer PR - Remove testng-old.xml from the repo</a> - Recess Week, Sat</p>
+
+<h5 id="general">General</h5>
+<ul>
+  <li><a href="https://github.com/paradite/teammates">Fork and set up project</a> - Week 4, Fri</li>
+  <li><a href="https://github.com/TEAMMATES/teammates/pull/4830">First timer PR - Remove testng-old.xml from the repo, merged</a> - Recess Week, Sat</li>
+</ul>
 
 <h5 id="feature-user-map">Feature user map</h5>
 <ul>
   <li><a href="http://4-18-dot-teammates-paradite.appspot.com/visitors.html">POC for visitor’s map feature</a>, <a href="https://github.com/paradite/teammates/commit/de30d85a44cfe5b29ecbef2ffdf73ef8354c5702">commit</a> - Week 7, Sun</li>
   <li><a href="https://github.com/paradite/teammates/commit/685a8a1154e06ec1cacd13dfb36d2fedd1130be1">Added parsing for actual data, renamed feature to user map</a> - Week 8, Mon</li>
   <li><a href="https://github.com/TEAMMATES/teammates/pull/4929/commits">PR for user map feature, merged</a> - Week 8, Mon</li>
+  <li><a href="https://github.com/TEAMMATES/teammates/pull/4995">PR for user data cleaning, merged</a> - Week 9, Mon</li>
+  <li><a href="https://github.com/TEAMMATES/teammates/issues/5001">Raised issue for solving visibility of smaller countries, currently under discussion</a> - Week 9, Tue</li>
 </ul>
 
 <h4 id="technology-expertise-in-web-based-data-visualization">Technology expertise in web-based data visualization</h4>
@@ -353,11 +356,20 @@
   <li><a href="https://github.com/paradite/gitviz/commit/7df4b94ca8198b531b23bbf603f7db7b79bb1744">Implemented UI, code cleanup, ready for release</a> - Recess Week, Sat</li>
   <li><a href="https://github.com/paradite/gitviz/commit/695e92daad54e090433ed271c4af1bb3245f43fd">Added server-side caching to improve performance</a> - Week 8, Mon</li>
   <li><a href="https://github.com/paradite/gitviz/commit/6f64bcd4f769491264ff0e73d26564a3674f8fc4">Separated home page with app page, update UI</a> - Week 8, Sun</li>
+  <li><a href="https://github.com/paradite/gitviz/commit/cdded2a5dfddaaff7e47ed05ba7d79a675c07128">Rewrite the modules in commonJS and use webpack to bundle the code and handle dependencies</a> - Week 9, Mon</li>
+  <li><a href="https://github.com/paradite/gitviz/commit/c87ca1a950bca600d829afc03b969081e54995e9">Allow saving teammates information as a link that can be used directly next time</a> - Week 9, Sun</li>
 </ul>
 
 <h6 id="blog-posts-on-d3jsdata-visualization">Blog posts on d3.js/data visualization</h6>
 <ul>
-  <li><a href="http://paradite.com/2016/02/21/d3-js-app-structure-separating-concerns/">d3.js app structure – separating concerns</a></li>
+  <li><a href="http://paradite.com/2016/02/21/d3-js-app-structure-separating-concerns/">d3.js app structure – separating concerns</a> - Week 6, Sun</li>
+  <li><a href="http://paradite.com/2016/03/18/modular-d3-app-commonjs-webpack/">Modular d3 app with commonJS and webpack</a> - Week 9, Fri</li>
+</ul>
+
+<h6 id="other-matters-related-to-expertise-in-data-visualization">Other matters related to expertise in data visualization</h6>
+<ul>
+  <li>Met with potential client to discuss on a project for visualization of family genealogy based on DNA data and family tree</li>
+  <li>Got an summer internship offer for developing a visual analytics tool for an education platform</li>
 </ul>
 
 <h3 id="yijinl-leow-yijin">@YijinL (Leow Yijin)</h3>
@@ -417,6 +429,10 @@
   <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/847204b5a7b53de35199ceb350699c256fe5fbe1">Snapshot of project dir for guide milestone 3</a> - Week 8, Tue</li>
   <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/d837a61ff8113281d6e28f6a922da7b9f68c7017">Snapshot of project dir for guide milestone 4</a> - Week 8, Thu</li>
   <li><a href="https://github.com/nus-fboa2016-si/whiteboard/commit/502c82685ff059cf98c8d20ed0f089adcf3d3e87">Split up guide milestones into ordered subtasks with descriptions</a> - Week 9, Tue</li>
+  <li><a href="https://github.com/nus-fboa2016-si/whiteboard/blob/master/guide/v1/GUIDE.md">Finish tutorial v1 guide</a> - Week 9, Thu</li>
+  <li><a href="https://github.com/nus-fboa2016-si/whiteboard/blob/master/guide/v2/GUIDE.md">Finish tutorial v2 guide</a> - Week 9, Fri</li>
+  <li><a href="https://github.com/nus-fboa2016-si/whiteboard/blob/master/guide/v3/GUIDE.md">Finish tutorial v3 guide</a> - Week 9, Sun</li>
+  <li><a href="https://github.com/nus-fboa2016-si/whiteboard/blob/master/guide/v4/GUIDE.md">Finish tutorial v4 guide</a> - Week 9, Sun</li>
 </ul>
 
 <h4 id="contribution-to-minor-project-hubturbo">Contribution to minor project HubTurbo</h4>
@@ -425,8 +441,12 @@
   <li><a href="https://github.com/YijinL/HubTurbo/commits/%231235-update-team-page-promotions">Issue #1235 progress</a> - Week 6, Sun</li>
   <li><a href="https://github.com/HubTurbo/HubTurbo/pull/1283">Issue #1235 PR merged (commits squashed)</a> - Recess Week, Fri</li>
   <li><a href="https://github.com/HubTurbo/HubTurbo/pull/1282">Issue #891 PR merged (commits squashed)</a> - Recess Week, Sun</li>
-  <li><a href="https://github.com/HubTurbo/HubTurbo/issues/1338">Opened issue #1338</a> - Week 8, Sat</li>
-  <li><a href="https://github.com/HubTurbo/HubTurbo/pull/1340">Issue #1340 PR (in progress)</a> - Week 8, Sat</li>
+  <li><a href="https://github.com/HubTurbo/HubTurbo/issues/1338">Discover and open issue #1338</a> - Week 8, Sat</li>
+  <li><a href="https://github.com/HubTurbo/HubTurbo/pull/1340">Issue #1340 PR (merge approved)</a> - Week 9, Sun</li>
+  <li><a href="https://github.com/HubTurbo/HubTurbo/issues/1380">Discover and open issue #1380</a> - Week 9, Sun</li>
+  <li><a href="https://github.com/HubTurbo/HubTurbo/issues/1385">Discover and open issue #1385</a> - Week 9, Sun</li>
+  <li><a href="https://github.com/HubTurbo/HubTurbo/pull/1386">Issue #1380 PR (in progress)</a> - Week 9, Sun</li>
+  <li><a href="https://github.com/HubTurbo/HubTurbo/issues/1385">Issue #1385 in progress)</a> - Week 9, Sun</li>
 </ul>
 
 <h4 id="technology-expertise-in-cloud-deployment-and-monitoring">Technology expertise in cloud deployment and monitoring</h4>
@@ -478,6 +498,13 @@
   <li><a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/08ce93caeca5bb5e8ad671f49de6680dd4be2ac6">Refactor packet list, packet and packet content and give styling to them</a> - Week 8, Sat</li>
   <li><a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/22ed094607c818523282c2ff5f9e4a2b2ab8faeb">Add search bar component with its styling</a> - Week 8, Sun</li>
   <li><a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/d028be47a636f30d0feed07578032dae04053cab">Add packet content box containing PacketMetaData and PacketData component</a> - Week 8, Sun</li>
+  <li><a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/c9380f80161036288c14b645712afb3ba08795ee">Add styling to PacketMetaData and PacketData component</a> - Week 9, Mon</li>
+  <li><a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/2f546323a69dc556ef6369bc925461139085ba18">Implement functionality to add packet to the list and select packet to display the content</a> - Week 9, Mon</li>
+  <li><a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/32ea6dbcd3b48f0083269c5ab3b303f92702b3ec">Hide searchable packet list and packet content box when io is not detected</a> - Week 9, Tue</li>
+  <li><a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/383634b5a7be773fd41073c4f776be9cfbd5132f">Improve styling for search bar</a> - Week 9, Tue</li>
+  <li><a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/b7ea28d736d3335e93b3b22d1993b8be5af3d440">Implement color coding of packet based on its hashed event name</a> - Week 9, Wed</li>
+  <li><a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/b696707c9d582e5d395e2f3347eb3450eafc74bf">Implement active searching of packet based on keyword, and refactor PacketList and SearchBar component</a> - Week 9, Thur</li>
+  <li><a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/e7683f6673929cccbedbab333ab88cad29848ee0">Added elapsed time to PacketMetaData, refactor PacketData and PacketMetaData component</a> - Week 9, Sat</li>
 </ul>
 
 <h4 id="contribution-to-project-teammates-minor-project-1">Contribution to project Teammates (Minor Project)</h4>
@@ -491,7 +518,10 @@
 
 <h4 id="tech-expertise-plan-mobile-development">Tech Expertise Plan: Mobile Development</h4>
 <ul>
-  <li>Blogpost about Android Project Structure and Naming Convention Guidelines <a href="https://medium.com/@mikelimantara/overview-of-android-project-structure-and-naming-conventions-b08f6d0b7291#.z58j2vliw">link</a></li>
+  <li>Blogpost about Android Project Structure and Naming Convention Guidelines <a href="https://medium.com/@mikelimantara/overview-of-android-project-structure-and-naming-conventions-b08f6d0b7291#.z58j2vliw">Link</a></li>
+  <li>Created Wealth Management App prototype in Android for UBS Technology Case Challenge - First Winner <a href="https://github.com/mikelimantara/UBSTechChallenge2015">Github link</a></li>
+  <li>Blogpost about Making HTTP request with Retrofit Library <a href="https://medium.com/@mikelimantara/making-http-requests-in-android-with-retrofit-library-5829b4f22311#.u0x5n4voa">Link</a></li>
+  <li>Created Demo for making HTTP request using Retrofit Library <a href="https://github.com/mikelimantara/retrofit-demo">Github Link</a></li>
 </ul>
 
 <h5 id="deliverable-could-be-in-the-form-of">Deliverable could be in the form of:</h5>
@@ -535,6 +565,10 @@
   <li>Project setup for SI-devtool refactor <a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/ed0472ac0f488333ba99b999e1f9d6dcfe39a79a">link</a> - Week 8, Mon</li>
   <li>Refactor connecting codes for SI-devtool <a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/b50d17f1e43d6685f69cedd112d7929172d30fcd">link</a> - Week 9, Mon</li>
   <li>Link updates from Socket to devtool component <a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/535759802c011499c9ce0623be306d7f53f56428">link</a> - Week 9, Mon</li>
+  <li>Build UI for sockets and socket info display field<a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/f67ee2fb1164471cbb5216bd031bdcb78a510522">link</a> - Week 9, Thurs</li>
+  <li>Implement latency check for sockets<a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/4ea1bb788d9b30d454b2160dc4b1c749bee29101">link</a> - Week 10, Mon</li>
+  <li>Implement Socket status check <a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/6e001146b0c35b8993df2988e9bffef192310a2b">link</a> - Week 10, Mon</li>
+  <li>Implement time ticker to trigger timer refresh <a href="https://github.com/nus-fboa2016-si/socketio-devtool/commit/98017f7e6a1b1085c17b3a539fde353f95ed9ba5">link</a> - Week 10, Mon</li>
 </ul>
 
 <h4 id="contribution-to-minor-project-hubturbo-1">Contribution to minor project HubTurbo</h4>
@@ -546,6 +580,7 @@
 <h4 id="technology-expertise-in-restful-apis">Technology expertise in RESTful APIs</h4>
 <ul>
   <li><a href="https://medium.com/@whattokingu/what-i-know-about-rest-21ece615c949#.pebz7xf06">Blogpost</a> on introduction to REST</li>
+  <li><a href="https://medium.com/@whattokingu/hypermedia-apis-bdec8c78c8dc#.wmsl68uwu">Blogpost</a> on Hypermedia APIs.</li>
 </ul>
 
 <h5 id="short-term-plan-3">Short term plan</h5>
@@ -588,7 +623,8 @@
 <h5 id="current-contribution-to-expertise">Current contribution to expertise</h5>
 <ul>
   <li><a href="http://stackoverflow.com/questions/30538019/git-merge-changes-between-upstream-brnches/30541348#30541348">Answered a question on Stack Overflow about Git workflow</a></li>
-  <li>Blogpost on <a href="http://digawp.blogspot.sg/2016/03/git-tips-and-best-practices.html">Git tips and best practices</a></li>
+  <li><a href="http://digawp.blogspot.sg/2016/03/git-tips-and-best-practices.html">Blogpost</a> on Git tips and best practices - Week 7, Fri</li>
+  <li><a href="http://digawp.blogspot.sg/2016/03/git-vs-mercurial-workflow-history.html">Blogpost</a> comparing Git and Mercurial’s workflow - Week 9, Sun</li>
 </ul>
 
 <h5 id="short-term-plan-4">Short term plan</h5>
