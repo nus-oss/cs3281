@@ -187,6 +187,22 @@
  <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/issues/32">Distribute functions by two Reference Point</a> - Week 9, Sun</li>
       <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/issues/33">Implemented Powerpoint’s in-built align functions</a> - Week 9, Sun</li>
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/issues/42">Adjoin no longer auto aligns</a> - Week 9, Mon</li>
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/issues/44">Allow user to choose distribute by shape edges or center</a> - Week 9, Tue</li>
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/issues/47">New align function to align center</a> - Week 9, Tue</li>
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ Change LockAxis to be follow same UX behaviour as Rotation - Week 9, Wed</li>
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ Change Rotation and LockAxis to have visual indicator(highlighted) when they are active - Week 9, Wed</li>
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ Add UT for Align - Week 9, Thu</li>
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ Refactor PositionsLab to use lambda expressions - Week 10, Sun</li>
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ PositionsLab functions now do not change the shape properties (shapeType, flip, etc) - Week 10, Sun</li>
     </ul>
   </li>
   <li>Groundwork for Positions Lab
@@ -200,7 +216,7 @@
   <li>Workplan for Positions Lab
     <ul>
       <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
- Implement Distribute Along Edge - Week 10, Mon</li>
+ Implement Distribute Along Edge</li>
       <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
  Refactor architecture of Positions Lab</li>
       <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
@@ -251,10 +267,18 @@
  Improve on rotation support for shapes - Week 7, Thu</li>
       <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  Redesign icons for ResizeLab - Week 8</li>
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ Add settings for Same Dimension - Week 9, Wed</li>
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ Add settings for Stretch/Shrink - Week 9, Thu</li>
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ Implement slight adjust feature - Week 10, Sun</li>
       <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
- Add settings for Same Dimension</li>
+ Implement adjust aspect ratio</li>
       <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
- Create Crop To Match feature</li>
+ Implement resize propotionally (Height and Width)</li>
+      <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+ Add delay to preview</li>
       <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
  Create Ratio Resize feature</li>
     </ul>
@@ -267,8 +291,8 @@
   </li>
   <li>Others
     <ul>
-      <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
- Create unit tests</li>
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ Create unit tests for major functions - Week 9, Thu</li>
       <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
  Create functional tests</li>
       <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
@@ -317,12 +341,19 @@
   <li>Enable <strong>Undo for PositionsLab</strong> in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/blob/3be5c078f66471729725ddc07f7faa624148449a/PowerPointLabs/PowerPointLabs/PositionsLab/PositionsPaneWPF.xaml.cs"><code>PositionsPaneWPF.xaml.cs</code></a> - Week 8, Wed</li>
   <li>Implement <strong>Preview for Align, Adjoin, Distribute (except Grid) and Swap</strong> in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/blob/d906410c8ee7490536eec30eea79714502299746/PowerPointLabs/PowerPointLabs/PositionsLab/PositionsPaneWPF.xaml"><code>PositionsPaneWPF.xaml.cs</code></a> - Week 8, Wed</li>
   <li>Implement <strong>Distribute Grid by two Anchor shapes</strong> <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/blob/0ab2e5aa71bfc4db6722eebd01a28bfa5bc9af9d/PowerPointLabs/PowerPointLabs/PositionsLab/PositionsLabMain.cs"><code>PositionsLabMain.cs</code></a> - Week 9, Sun</li>
+  <li>Change <strong>LockAxis</strong> to be follow same UX behaviour as Rotation in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/blob/fc91579e862220b2209638a4f800d97727c00ffb/PowerPointLabs/PowerPointLabs/PositionsLab/PositionsPaneWPF.xaml.cs"><code>PositionsPaneWPF.xaml.cs</code></a> - Week 9, Wed</li>
+  <li>Change <strong>Rotation</strong> and <strong>LockAxis</strong> to have visual indicator(highlighted) when they are active in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/blob/b0c9c98a51b412b608a077c5ecd436defc767681/PowerPointLabs/PowerPointLabs/PositionsLab/PositionsPaneWPF.xaml.cs"><code>PositionsPaneWPF.xaml.cs</code></a> - Week 9, Wed</li>
+  <li>Add <strong>UT for Align</strong> in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/blob/faba1ecebe778d4498d1aa8732154550ff07107c/PowerPointLabs/Test/UnitTest/PositionsLab/PositionsLabAlignTest.cs"><code>PositionsLabAlignTest.cs</code></a> - Week 9, Thu</li>
+  <li>Fix bug with <strong>PPShape</strong> not generating properly when Shape is flipped in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/blob/39e61c98179997152b967c69a755290cd8efc9ab/PowerPointLabs/PowerPointLabs/Utils/PPShape.cs"><code>PPShape.cs</code></a> - Week 9, Sat</li>
+  <li>Refactor <strong>PositionsLab</strong> to use lambda expressions in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/blob/7a43c983fd77eaff112bb4c78bc979eded96535f/PowerPointLabs/PowerPointLabs/PositionsLab/PositionsPaneWPF.xaml.cs"><code>PositionsLab.xaml.cs</code></a> - Week 10, Sun</li>
+  <li><strong>PositionsLab</strong> functions now do not change the shape properties (shapeType, flip, etc) in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/blob/7a43c983fd77eaff112bb4c78bc979eded96535f/PowerPointLabs/PowerPointLabs/PositionsLab/PositionsPaneWPF.xaml.cs"><code>PositionsLab.xaml.cs</code></a> - Week 10, Sun</li>
 </ul>
 
 <h4 id="contributions-to-project-oppiahttpswwwoppiaorg-minor-project">Contributions to project <a href="https://www.oppia.org/">Oppia</a> (Minor Project)</h4>
 <ul>
   <li>Setup Environment: <a href="https://drive.google.com/open?id=0BzrjImOddxOKSVY4eHBEdHlQcjg">Screenshot</a> - Week 8, Fri</li>
-  <li>Working on <a href="https://github.com/oppia/oppia/issues/1381">Issue #1381</a> - Week 8, Sat</li>
+  <li><a href="https://github.com/oppia/oppia/pull/1607">Pull Request #1607</a> (Merged) - Week 9, Tue</li>
+  <li><a href="https://github.com/oppia/oppia/pull/1608">Pull Request #1608</a> (Pending resolving of issue with e2e testing not working on Vagrant) - Week 9, Tue</li>
 </ul>
 
 <h4 id="technology-expertise-in-web-programming-and-applications">Technology expertise in Web Programming and Applications</h4>
@@ -357,6 +388,8 @@
   <li>Excercise on Client and Server Architecture (w/ AJAX): <a href="http://cs3226.comp.nus.edu.sg/~a0096724/lab4/">CS3226 Lab 4</a> - Recess Week</li>
   <li>Exercise on use of Database and Input sanitisation to prevent SQL injections: <a href="http://cs3226.comp.nus.edu.sg/~a0096724/lab5/">CS3226 Lab 5</a> - Week 7</li>
   <li>Exercise on Authentication and Authorisation: <a href="http://cs3226.comp.nus.edu.sg/~a0096724/lab6/">CS3226 Lab 6</a> - Week 8</li>
+  <li>Prototype of Cache Simulator: <a href="http://oswellchan.github.io/CacheSimulator/">Cache Simulator - Iteration 2</a> - Week 9</li>
+  <li><a href="https://medium.com/@oswellchan/search-engine-optimization-how-site-architecture-affects-seo-8e1815a34752#.td99u8jp9">Blog Post on SEO</a> - Week 10</li>
 </ul>
 
 <hr />
@@ -396,8 +429,16 @@
   <li>Implemented the redefinition of bounding box in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/blob/c14b014770d3bc00a743914cbc8fcd718cf1f3ac/PowerPointLabs/PowerPointLabs/Utils/PPShape.cs"><code>PPShape.cs</code></a> - Week 7, Thu</li>
   <li>Created <strong>Symmetric</strong> feature in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/blob/b994d66268cb1eb29597d47ea687f781b70f40d1/PowerPointLabs/PowerPointLabs/ResizeLab/ResizeLabMain.Symmetry.cs"><code>ResizeLabMain.Symmetry.cs</code></a> - Week 7, Thu</li>
   <li>Created preview of <strong>Symmetric</strong> in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/commit/1a76458a8a6168f37771c95e245b88e45b2512e7"><code>Commit e99bf89</code></a> - Week 7, Fri</li>
-  <li>Refactor preview and execute action in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/commit/ab4c5086cd3bb9425d7280858658609655d67167"><code>Commit 99f13a1</code></a> - Week 7, Fri</li>
-  <li>Remove <strong>Symmetric</strong> from UI - Week 8, Thu</li>
+  <li>Refactored preview and execute action in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/commit/ab4c5086cd3bb9425d7280858658609655d67167"><code>Commit 99f13a1</code></a> - Week 7, Fri</li>
+  <li>Removed <strong>Symmetric</strong> from UI - Week 8, Thu</li>
+  <li>Implemented reset nodes to its original rotation in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/commit/1e3a2314ef4b6cb7081042db82f5191f50b424ae"><code>Commit 0d44fce</code></a> - Week 9, Wed</li>
+  <li>Added Resize Lab base unit test in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/blob/4757354d6de862da0079cdea8ed637e5a9ee5075/PowerPointLabs/Test/UnitTest/ResizeLab/ResizeLabBaseTest.cs"><code>ResizeLabBaseTest.cs</code></a> - Week 9, Wed</li>
+  <li>Added unit tests for <strong>Same Dimension</strong> in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/blob/4757354d6de862da0079cdea8ed637e5a9ee5075/PowerPointLabs/Test/UnitTest/ResizeLab/SameDimensionTest.cs"><code>SameDimensionTest.cs</code></a> - Week 9, Wed</li>
+  <li>Added unit tests for <strong>Fit to Slide</strong> in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/blob/2e175998d1946aa88b4d45d7be02e9060ce9d4f9/PowerPointLabs/Test/UnitTest/ResizeLab/FitToSlideTest.cs"><code>FitToSlideTest.cs</code></a> - Week 9, Thu</li>
+  <li>Implemented anchor alignment to <strong>Same Dimension</strong> in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/commit/8a84a5f7d3578ef335c44349929c5b69c1d3d92c"><code>Commit 9034054</code></a> - Week 9, Thu</li>
+  <li>Integrated the reset of nodes in Resize Lab after previewing in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/commit/cd27419f860ca5cd7dec84f880d2035fdfa08b35"><code>Commit a4c1f4f</code></a> - Week 9, Fri</li>
+  <li>Refactored <code>PPShape</code> in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/commit/37a9daf5aca1724643215dcd53197dd14075a539"><code>Commit e4088b</code></a> - Week 9, Fri</li>
+  <li>Changed shape identifier for preview in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/commit/c42b6a164fcc6976aea1c179503a7d74cdbacc29"><code>Commit acb6193</code></a> - Week 10, Sun</li>
 </ul>
 
 <h4 id="contributions-to-project-aima-pythonhttpsgithubcomaimacodeaima-python-minor-project">Contributions to project <a href="https://github.com/aimacode/aima-python">aima-python</a> (Minor Project)</h4>
@@ -436,6 +477,7 @@
   <li>Learned CLIPS and produced a simple diagnosis program for abdomen <a href="https://gist.github.com/youthinkk/782c8ba0f8db7084deea">diagnosis.clp</a> - Recess Week</li>
   <li>Planned and proposed larger scale knowledge-based systems on curriculum planner - Recess Week</li>
   <li>Blog post <a href="https://blog.nus.edu.sg/cs3281youthinkk/2016/02/29/what-is-artificial-intelligence/">What is Artificial Intelligence?</a> - Recess Week</li>
+  <li>Working on the project of curriculum planner</li>
 </ul>
 
 <hr />
@@ -471,7 +513,16 @@
   <li>Updated icons and UI for make symmetric - Week 7</li>
   <li>Redesigned icons for ResizeLab - Week 8</li>
   <li>Created unit tests for stretch / shrink - Week 8</li>
-  <li>Working on crop to match feature</li>
+  <li>Add <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/commit/730472fb9f434ce356a28fa3f33bf2f1925a4a43">settings for Stretch/Shrink and outermost stretch</a>, updated <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/commit/ed91d7a4ae9462cc52e73922a3bd454b677f41ff">UI for settings for Same dimension</a> - Week 9</li>
+  <li>Several code refractoring, with the <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/commit/a63046eef0deb8ade3351aab5f59fb0b00154bb4">major one allowing more flexible error handling and increased testibility</a> - Week 9</li>
+  <li>Redesigned UI - Week 9</li>
+  <li><a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/commit/f7bb6f57b75b18bf3dae8c16e23479b43c158fff">Updated fit to slide icon</a></li>
+  <li>Redesigned aspect ratio’s UI</li>
+  <li>Updated UI for Slight Adjust</li>
+  <li><a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/commit/acb619366babff07387ab5596c8fba40d9dd6ccc">Resized and implemented suggested icons for UI</a></li>
+  <li><a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/commit/ad2100ec383be55631803538a841ffca2d789a3a">Added labels below buttons, redesigned UI to maximise space usage</a></li>
+  <li><a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/commit/a63046eef0deb8ade3351aab5f59fb0b00154bb4">Added Slight Adjust feature</a> - Week 9</li>
+  <li>Working on UI (Bring settings out, refractor tooltips and several enhancements)</li>
 </ul>
 
 <h4 id="contributions-to-project-openmrshttpswwwopenmrsorg-minor-project">Contributions to project <a href="https://www.openmrs.org">OpenMRS</a> (Minor Project)</h4>
@@ -480,6 +531,7 @@
   <li>Done setting up development environment - Recess week <a href="https://dl.dropboxusercontent.com/u/7610216/dev%20env.PNG">screenshot</a></li>
   <li>Successfully ran test cases - Recess week</li>
   <li>Working on migrating existing UI test cases to conform to their automated testing guidelines - Recess week</li>
+  <li>Submitted <a href="https://github.com/openmrs/openmrs-distro-referenceapplication/pull/107">pull request</a> to fix UI test case - Week 9</li>
 </ul>
 
 <h4 id="technology-expertise-in-testing">Technology expertise in Testing</h4>
@@ -500,6 +552,13 @@
   </li>
   <li>Be able to write testable code</li>
   <li>Learn about the different ways of testing at different layers</li>
+</ul>
+
+<h6 id="accomplished-2">Accomplished</h6>
+<ul>
+  <li>Wrote unit tests for stretch/shrink - Week 8</li>
+  <li>Fixed one of OpenMRS’s UI tests to conform with their guidelines, and increase testibility and reliability - Week 9</li>
+  <li>Refractored code in PPTLab to increase testibility such that logic/model no longer couples with view - Week 9</li>
 </ul>
 
 <hr />
@@ -531,11 +590,16 @@
   <li><strong>Created Icons for Align and Distribute</strong> in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/issues/28">Icons for all Positions Lab Pane</a> - Week 8, Mon</li>
   <li><strong>Supports Powerpoint’s align functions</strong> in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/issues/33">PowerPoint Align functions</a> - Week 9, Mon</li>
   <li><strong>Implemented Distribute Horizontal and Vertical using two anchorpoints</strong> in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/issues/32">Distribute Shapes</a> - Week 9, Mon</li>
+  <li><strong>Implemented option for user whether to align after adjoining</strong> in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/issues/42">Adjoin no longer auto aligns</a> - Week 9, Mon</li>
+  <li><strong>Implemented option for user to choose distribute space between shape edges or shape centers</strong> in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/issues/44">Allow user to choose distribute by shape edges or center</a> - Week 9, Tue</li>
+  <li><strong>Implemented new function to align horizontal and vertical center</strong> in <a href="https://github.com/nus-fboa2016-PL/PowerPointLabs/issues/47">New align function to align center</a> - Week 9, Tue</li>
 </ul>
 
 <h4 id="contributions-to-project-openkeychainhttpswwwopenkeychainorg-minor-project">Contributions to project <a href="https://www.openkeychain.org/">OpenKeychain</a> (Minor Project)</h4>
 <ul>
-  <li>…</li>
+  <li>Setup of project</li>
+  <li>Looking through open and closed pull requests</li>
+  <li>WIP for first issue</li>
 </ul>
 
 <h4 id="contributions-to-cs2103-websitehttpwwwcompnusedusgcs2103ay1516s2">Contributions to <a href="http://www.comp.nus.edu.sg/~cs2103/AY1516S2/">CS2103 website</a></h4>
@@ -549,11 +613,13 @@
 
 <h4 id="technology-expertise-in-information-security">Technology expertise in Information Security</h4>
 
-<h6 id="accomplished-2">Accomplished</h6>
+<h6 id="accomplished-3">Accomplished</h6>
 <ul>
   <li>Wrote a <a href="https://github.com/vhazali/cs4236/tree/master/SHA1Reverser">SHA1 Reverser</a>, which reverses a hash produced by SHA1 algorithm</li>
   <li>Wrote a <a href="https://github.com/vhazali/cs4236/tree/master/WEPCracker">WEP Cracker</a>, which cracks a WEP secured connection</li>
   <li>Wrote a short code to implement a <a href="https://github.com/vhazali/cs4236/tree/master/Rainbow">Rainbow Table</a></li>
+  <li>Learn how to use some analysis tools such as nmap, gdb</li>
+  <li>Tried out reversing binaries</li>
 </ul>
 
 <h6 id="short-term-plan-3">Short Term Plan</h6>
@@ -561,7 +627,8 @@
   <li>Expose myself to more security related issues by going for talks</li>
   <li>Gain hands on experience by participating in Capture The Flag competitions</li>
   <li>Join a community that’s geared towards Information Security (such as NUS GreyHats)</li>
-  <li>Contribute to OSS related to security to gain more exposure</li>
+  <li>Contribute to OSS related to security to gain more exposure (Open Keychain / Nmap)</li>
+  <li>Improve knowledge in assembly/binary code</li>
 </ul>
 
 <h6 id="long-term-plan-3">Long Term Plan</h6>
