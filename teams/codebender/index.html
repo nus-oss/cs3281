@@ -163,18 +163,18 @@
  Create test to ensure show info page shows correct info - Week 9</li>
   <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  Create dashboard page - Week 9</li>
-  <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
- Create test to ensure dashboard page shows correct and links correctly - Week 10</li>
-  <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+  <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  Create log/analytics database - Week 10</li>
-  <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
- Create Analytics page - Week 11</li>
-  <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
- Create test to ensure Analytic page shows correct analytics - Week 11</li>
-  <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
- Create admin page - Week 12</li>
-  <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
- Create test for admin page and features - Week 12</li>
+  <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ Link firmware database and flashing page - Week 11</li>
+  <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ Create individual firmware flash page and embed code - Week 11</li>
+  <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ Create Analytic page - Week 12</li>
+  <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ Integration - Week 12</li>
+  <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ Buffer - Week 13</li>
 </ul>
 
 <h2 id="workplan-for-eratosthenes">Workplan for Eratosthenes</h2>
@@ -288,17 +288,21 @@
  Generate a schema diagram for our new database design</li>
     </ul>
   </li>
-  <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+  <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  <strong>Milestone 7</strong> - Due Week 12, Sun
     <ul>
       <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  Implement preferences for all APIs</li>
-      <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  Remove duplicate library files and modify v1 API to use v2 library files</li>
-      <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  Remove duplicate code by changing duplicated code to reference v1 methods</li>
-      <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  Perform migration tests on virtual instance</li>
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ Write API documentation for Eratosthenes</li>
+      <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ Test actual requests on the migrated mock production server</li>
     </ul>
   </li>
   <li>Week 13 - Buffer time</li>
@@ -349,14 +353,14 @@
  Pause and restart the chart plotting - Week 8</li>
   <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  CSV Import - Week 8</li>
-  <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
- User costumization of axis name, data name,etc - Week 9</li>
   <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  Bar Chart - Week 9</li>
   <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  Performance evaluation - Week 10</li>
-  <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
+  <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
  Merging/Revising - Week 10</li>
+  <li>					<input type="checkbox" checked="checked" class="tasklist" disabled="disabled" />
+ Elimination of noise data - Week 11</li>
   <li>					<input type="checkbox"  class="tasklist" disabled="disabled" />
  Deploying on live server, done! - Week 11</li>
 </ul>
@@ -408,8 +412,23 @@
   <li>Week 7, Tue - Wrote test for updating of a library’s last commit</li>
   <li>Week 8, Tue - Implemented support for the authentication of multiple partners</li>
   <li>Week 8, Tue - Created tests for testing the authentication mechanism</li>
-  <li>Week 9, Tue - Wrote the ultimate migration script for migrating everything on the production server (<a href="https://github.com/codebendercc/eratosthenes/pull/62">PR #62</a>)</li>
+  <li>Week 9, Tue - Wrote the ultimate migration script for migrating everything on the production server (<a href="https://github.com/codebendercc/eratosthenes/pull/62">PR #62</a>) (merged)</li>
   <li>Week 9, Thu - Generated a schema diagram of our new database design</li>
+  <li>Week 10, Sat - Wrote a fix for an existing bug which propagated from v1 to v2 (<a href="https://github.com/codebendercc/eratosthenes/pull/68">PR #68</a>) (merged)</li>
+  <li>Week 10, Sat - Orientated myself with the mock production server which we will be testing our migration on</li>
+  <li>Week 11, Wed - Added more Arduino architectures to the migration script</li>
+  <li>Week 11, Wed - Successfully performed the migration on the <a href="http://eratosthenes-foa.codebender.cc/status">mock production server</a></li>
+  <li>Week 11, Thu - Created a <a href="https://github.com/codebendercc/eratosthenes/wiki">Wiki</a> for Eratosthenes for documentation purposes</li>
+  <li>Week 11, Thu - Documented the <a href="https://github.com/codebendercc/eratosthenes/wiki/APIs">implemented APIs</a> as well as some <a href="https://github.com/codebendercc/eratosthenes/wiki/Future-Development">ideas for future development</a></li>
+  <li>Week 11, Thu - Make naming changes based on feedback from John (<a href="https://github.com/codebendercc/eratosthenes/pull/72">PR #72</a>) (merged)</li>
+  <li>Week 11, Thu - Remove old entities, fixtures and tables (<a href="https://github.com/codebendercc/eratosthenes/pull/73">PR #73</a>)</li>
+  <li>Week 11, Fri - Wrote a guide on <a href="https://github.com/codebendercc/eratosthenes/wiki/Extending-the-APIs">how to extend the existing APIs for Eratosthenes</a></li>
+  <li>Week 12, Wed - Tested version 2 of Eratosthenes on the mock production server for backward compatibility</li>
+  <li>Week 12, Wed - Fixed minor lapses in backward compatibility</li>
+  <li>Week 12, Thu - Merged and integrated all existing pull requests</li>
+  <li>Week 12, Sat - Co-designed the deleteLibrary API for version 2 of Eratosthenes</li>
+  <li>Week 12, Sat - Wrote the Wiki entry on the deleteLibrary API</li>
+  <li>Week 12, Sat - Resolved all conflicts in the final <a href="https://github.com/codebendercc/eratosthenes/pull/76">pull request</a></li>
 </ul>
 
 <h4 id="contribution-to-minor-project---teammates">Contribution to minor project - Teammates</h4>
@@ -455,6 +474,9 @@
   <li>Posted a write-up on a web/cryptographic challenge in Insomni’hack 2016 (<a href="http://cs3281-2.blogspot.sg/2016/03/te-insomnihack-2016-teaser-fridginator.html">blog post on the challenge</a>)</li>
   <li>Posted a write-up on a cryptographic/exploit challenge in SSCTF Quals 2016 (<a href="http://cs3281-2.blogspot.sg/2016/03/te-ssctf-2016-heheda-crypto-exploit.html">blog post on the challenge</a>)</li>
   <li>Wrote a blog post on another cryptographic/exploit challenge in SSCTF Quals 2016 (<a href="http://cs3281-2.blogspot.sg/2016/03/te-ssctf-2016-chain-rule-crypto-exploit.html">write-up</a>)</li>
+  <li>Attended Security Wednesdays talk on <a href="https://www.facebook.com/events/1019203218143738/">“Local Privilege Escalation – From Zero to Hero”</a></li>
+  <li>Created a binary challenge for the upcoming <a href="http://nusgreyhats.org/x-ctf/">X-CTF 2016</a></li>
+  <li>Learnt special tricks about cross-site scripting and social engineering at a <a href="http://nushackers.org/2016/03/friday-hacks-111-Apr-1/">security-themed Friday Hacks</a></li>
 </ul>
 
 <h3 id="bsmmoon-moon-seokmin-team-lead---week-4---8">@bsmmoon (Moon Seokmin) (Team Lead - Week 4 - 8)</h3>
@@ -487,6 +509,10 @@
   <li>Week 9, Wed - Combined the two types of libraries builtin libraries and external libraries. Handled all the regression caused by this change. Added tests. (<a href="https://github.com/codebendercc/eratosthenes/pull/57">PR #57</a> and <a href="https://github.com/codebendercc/eratosthenes/pull/58">PR #58</a>)</li>
   <li>Week 9, Wed - Raised an issue to suggest better practice <a href="https://github.com/codebendercc/eratosthenes/issues/59">Issue #59</a></li>
   <li>Week 9, Wed - Modified latest_version to be non-nullable and modified Library / Version related codes to follow this restriction.</li>
+  <li>Week 10, Wed - Prunning of codes from older v1 API <a href="https://github.com/codebendercc/eratosthenes/pull/66">PR #66</a></li>
+  <li>Week 10, Sun - Working on integration.. Resolving conflicts.</li>
+  <li>Week 11, Sun - Worked on documenting APIs on Wiki <a href="https://github.com/codebendercc/eratosthenes/wiki/APIs">Link</a></li>
+  <li>Week 12, Sun - Implements the backend of deleteLibrary API.</li>
 </ul>
 
 <h4 id="contribution-to-minor-project---hubturbo">Contribution to minor project - HubTurbo</h4>
@@ -499,7 +525,7 @@
   <li>Recess Week - Worked on issue 1233 but another PR made for very related issue so halted</li>
 </ul>
 
-<h4 id="technology-expertise-in-ruby-on-rails">Technology expertise in Ruby on Rails</h4>
+<h4 id="technology-expertise-in-ruby">Technology expertise in Ruby</h4>
 
 <h5 id="short-term-plan">Short Term Plan</h5>
 <ul>
@@ -530,6 +556,9 @@
   <li>Metaprogramming Ruby 2. Chapter 4: Blocks</li>
   <li>Wrote Metaprogramming Ruby 2. Chapter 4 Summary <a href="http://moonmoon3281.blogspot.sg/2016/03/metaprogramming-ruby-2-chapter-4-summary.html">Link</a></li>
   <li>Metaprogramming Ruby 2. Chapter 5: Class Definition</li>
+  <li>Wrote Metaprogramming Ruby 2. Chapter 5 Summary <a href="http://moonmoon3281.blogspot.sg/2016/03/metaprogramming-ruby-2-chapter-5-summary.html">Link</a></li>
+  <li>Metaprogramming Ruby 2. Chapter 6: Code That Writes</li>
+  <li>First Ruby Project. Developed a web scrapper for a research assistant part time job for a professor at NUS Business School. Scraped data since 1991 from a website. <a href="https://github.com/bsmmoon/scrapper5">Repo</a></li>
 </ul>
 
 <h3 id="alexyaoyang-alex-yao">@alexyaoyang (Alex Yao)</h3>
@@ -548,16 +577,26 @@
   <li>Week 5, Thu - <a href="https://github.com/codebendercc/Neuralyzer/pull/23">Fixed bug related to flashing</a></li>
   <li>Week 6, Mon - Started on landing page</li>
   <li>Week 6, Fri - <a href="https://github.com/codebendercc/Neuralyzer/pull/24">Landing page initial commit</a></li>
-  <li>Week 6, Fri - Added unit test for landing page</li>
-  <li>Week 6, Sat - Created database for user and tier levels</li>
-  <li>Week 6, Sat - Created functional tests for user and tier database</li>
-  <li>Week 7, Fri - Created Login and Register page</li>
-  <li>Week 8, Mon - Linked Login and Register page to database</li>
-  <li>Week 8, Thu - Created database for firmware</li>
-  <li>Week 9, Mon - Fixed bug related to login</li>
-  <li>Week 9, Thu - Created functional test for Registration</li>
-  <li>Week 9, Sat - Created Show Info Page</li>
-  <li>Week 9, Sun - Created Dashboard Page</li>
+  <li>Week 6, Fri - <a href="https://github.com/codebendercc/Neuralyzer/pull/25">Added unit test for landing page</a></li>
+  <li>Week 6, Sat - <a href="https://github.com/codebendercc/Neuralyzer/pull/26">Created database for user and tier levels</a></li>
+  <li>Week 6, Sat - <a href="https://github.com/codebendercc/Neuralyzer/pull/26">Created functional tests for user and tier database</a></li>
+  <li>Week 7, Fri - <a href="https://github.com/codebendercc/Neuralyzer/pull/28">Created Login and Register page</a></li>
+  <li>Week 8, Mon - <a href="https://github.com/codebendercc/Neuralyzer/pull/28">Linked Login and Register page to database</a></li>
+  <li>Week 8, Thu - <a href="https://github.com/codebendercc/Neuralyzer/pull/40">Created database for firmware</a></li>
+  <li>Week 9, Mon - <a href="https://github.com/codebendercc/Neuralyzer/pull/28">Fixed bug related to login</a></li>
+  <li>Week 9, Thu - <a href="https://github.com/codebendercc/Neuralyzer/pull/28">Created functional test for Registration</a></li>
+  <li>Week 9, Sat - <a href="https://github.com/codebendercc/Neuralyzer/pull/35">Created Show Info Page</a></li>
+  <li>Week 9, Sun - <a href="https://github.com/codebendercc/Neuralyzer/pull/34">Created Dashboard Page</a></li>
+  <li>Week 10, Thu - <a href="https://github.com/codebendercc/Neuralyzer/pull/23">Fixed bug related to flashing</a> Merged, hurray!</li>
+  <li>Week 10, Sun - Improved functional tests for landing page &amp; flash page</li>
+  <li>Week 11, Mon - <a href="https://github.com/codebendercc/Neuralyzer/pull/36">Created logs database</a></li>
+  <li>Week 11, Wed - <a href="https://github.com/codebendercc/Neuralyzer/pull/37">Linked up all database with foreign keys and cascading enabled</a></li>
+  <li>Week 11, Thu - <a href="https://github.com/codebendercc/Neuralyzer/pull/28">Lots of improvements on login-register-page</a></li>
+  <li>Week 12, Mon - <a href="https://github.com/codebendercc/Neuralyzer/pull/38">Linked flashing page with firmware database</a></li>
+  <li>Week 12, Mon - <a href="https://github.com/codebendercc/Neuralyzer/pull/38">Created individual flash pages + allow user to copy embed code onto their website</a></li>
+  <li>Week 12, Fri - <a href="https://github.com/codebendercc/Neuralyzer/pull/43">Created Analytic/Log page</a></li>
+  <li>Week 12, Fri - <a href="https://github.com/codebendercc/Neuralyzer/pull/45">Minor wording fix and improvements</a></li>
+  <li>Week 12, Fri - All PR’s have been merged into codebendercc/Neuralyzer</li>
 </ul>
 
 <h4 id="contribution-to-minor-project---powerpoint-labs">Contribution to minor project - Powerpoint Labs</h4>
@@ -574,13 +613,17 @@
   <li>Week 9, Thu - Included some images which was outside of /img folder into the rake task in <a href="https://github.com/PowerPointLabs/PowerPointLabs-Website/pull/30">PR #4</a> (Merged)</li>
   <li>Week 9, Thu - <a href="https://github.com/PowerPointLabs/PowerPointLabs-Website/pull/29">PR #3 Merged</a>, hurray!</li>
   <li>Week 9, Thu - <a href="https://github.com/PowerPointLabs/PowerPointLabs-Website/pull/30">PR #4 Merged</a>, hurray!</li>
+  <li>Week 12, Mon - <a href="https://github.com/PowerPointLabs/PowerPointLabs-Website/pull/32">Submitted PR for automatic inline of JS and CSS into HTML</a></li>
+  <li>Week 12, Fri - <a href="https://github.com/PowerPointLabs/PowerPointLabs-Website/pull/32">PR #5 Merged</a>, hurray!</li>
 </ul>
 
 <h4 id="technology-expertise-in-web-performance">Technology expertise in Web Performance</h4>
 <ul>
   <li>Recess Week - <a href="http://alexyy.com/2016/02/22/image-compression/">Wrote a blog post on lossless image compression for Powerpoint Labs</a></li>
   <li>Week 7, Mon - <a href="http://alexyy.com/2016/02/29/automated-image-compression/">Automation of image compression</a></li>
-  <li>Week 10, Mon - Wrote blog post regarding gzip</li>
+  <li>Week 10, Mon - <a href="http://alexyy.com/2016/03/21/gzip-benefits/">Wrote blog post regarding gzip</a></li>
+  <li>Week 11, Sat - <a href="http://alexyy.com/2016/04/02/process-differences/">Wrote blog post comparing development process</a></li>
+  <li>Week 12, Sun - <a href="http://alexyy.com/2016/04/10/pros-and-cons-of-merging-js-css-html/">Wrote blog post regarding merge JS/CSS into HTML</a></li>
 </ul>
 
 <h3 id="harryggg-ma-tanghao">@harryggg (Ma Tanghao)</h3>
@@ -614,6 +657,15 @@
   <li>Week 8, Sun - finish implementing bar chart (both frontend and backend)</li>
   <li>Week 9, Tues - fix an issue about switches between bar/line chart</li>
   <li>Week 9, Wed - Performance Profiling and Evaluation</li>
+  <li>Week 10,Wed - Refactor code according to mentor’s comments (waiting for merge)</li>
+  <li>Week 10,Thurs - Add legend text in line graph</li>
+  <li>Week 10,Sun - Add noise elimination mechanism, so additional non-critical data will not crash the program</li>
+  <li>Week 11,Tues - Adjust the code according to frontend developers’ needs</li>
+  <li>Week 11,Wed - Further modularize the code, encapsulate everything so that developers can implement the library with two lines</li>
+  <li>Week 11,Wed - Implement Mean, Variance, Min, Max, line hiding, zooming and panning, image exporting</li>
+  <li>Week 11,Sat - Added support for Chrome</li>
+  <li>Week 11,Sat - Implement sample size slider</li>
+  <li>Week 12,Wed - Fix a lot of fronted issues PR <a href="https://github.com/codebendercc/graphic_serial_monitor/pull/7">#7</a> and PR <a href="https://github.com/codebendercc/graphic_serial_monitor/pull/8">#8</a></li>
 </ul>
 
 <h4 id="contribution-to-minor-project---coursemology">Contribution to minor project - Coursemology</h4>
@@ -621,7 +673,7 @@
   <li>PR <a href="https://github.com/Coursemology/coursemology2/pull/797">#797</a> for issue<a href="https://github.com/Coursemology/coursemology2/issues/681">#681</a> (merged) - Week 5, Sun</li>
   <li>Raised issue<a href="https://github.com/Coursemology/coursemology2/issues/822">#822</a> - Week 6</li>
   <li>PR <a href="https://github.com/Coursemology/coursemology2/pull/897">#897</a> for issue<a href="https://github.com/Coursemology/coursemology2/issues/613">#613</a>(Merged) - Week 8, Mon</li>
-  <li>PR <a href="https://github.com/Coursemology/coursemology2/pull/936">#936</a> for issue<a href="https://github.com/Coursemology/coursemology2/issues/933">#933</a> - Week 9, Sun</li>
+  <li>PR <a href="https://github.com/Coursemology/coursemology2/pull/936">#936</a> for issue<a href="https://github.com/Coursemology/coursemology2/issues/933">#933</a>(Merged) - Week 9, Sun</li>
 </ul>
 
 <h4 id="technology-expertise-in-regular-expressions">Technology expertise in Regular Expressions</h4>
@@ -632,11 +684,8 @@
   <li><a href="http://blog.nus.edu.sg/matanghao/2016/03/09/useful-regular-expression-1-time-and-date/">Useful Regular Expressions 1 - Date and time</a> - Week 8</li>
   <li><a href="http://blog.nus.edu.sg/matanghao/2016/03/15/summary-of-mastering-regular-expressions-chapter-2/">Summary of Mastering Regular Expression Chapter.2</a> - Week 9</li>
   <li><a href="http://blog.nus.edu.sg/matanghao/2016/03/15/useful-regular-expression-2/">Useful Regular Expressions 2</a> - Week 9</li>
-  <li>
-    <ul>
-      <li><a href="http://blog.nus.edu.sg/matanghao/2016/03/20/summary-of-mastering-regular-expressions-chapter-4/">Summary of Mastering Regular Expression Chapter.4</a> - Week 10</li>
-    </ul>
-  </li>
+  <li><a href="http://blog.nus.edu.sg/matanghao/2016/03/20/summary-of-mastering-regular-expressions-chapter-4/">Summary of Mastering Regular Expression Chapter.4</a> - Week 10</li>
+  <li><a href="http://blog.nus.edu.sg/matanghao/2016/03/20/summary-of-mastering-regular-expressions-chapter-4/">Summary of Mastering Regular Expression Chapter.5</a> - Week 10</li>
 </ul>
 
 <h3 id="gisonrg-jiang-sheng-team-lead---week-9---12">@gisonrg (Jiang Sheng) (Team Lead - Week 9 - 12)</h3>
@@ -679,6 +728,14 @@
   <li>Week 8, Sun - Refine the process when header file name collision when add new library <a href="https://github.com/codebendercc/eratosthenes/commit/c17b3073ae5c7ef5449e04aae9cfdf9924d296f1">ref</a></li>
   <li>Week 9, Tue - Implement default version of library for partners <a href="https://github.com/codebendercc/eratosthenes/pull/60">PR</a></li>
   <li>Week 9, Sat - Add default version support for current APIs <a href="https://github.com/codebendercc/eratosthenes/pull/60/commits">ref</a></li>
+  <li>Week 10, Fri - Removed v1 legacy files <a href="https://github.com/codebendercc/eratosthenes/pull/67">PR</a></li>
+  <li>Week 10, Sun - Add more tests <a href="https://github.com/codebendercc/eratosthenes/pull/70">PR</a></li>
+  <li>Week 10, Sun - Hide toggle status button when view built-in libraries <a href="https://github.com/codebendercc/eratosthenes/pull/71">PR</a></li>
+  <li>Week 11, Wed - A <a href="http://blog.gisonrg.me/2016/development-process-comparison-between-codebender-and-teammates/">blog post</a> about comparsion of development process between Codebender and Teammates</li>
+  <li>Week 11, Thu - Documented the <a href="https://github.com/codebendercc/eratosthenes/wiki/Views">views</a></li>
+  <li>Week 11, Sun - Removed v1 legacy routings <a href="https://github.com/codebendercc/eratosthenes/pull/74">PR</a></li>
+  <li>Week 12, Tues - Verify migration result for all Apis on two server instance under codebender.cc. Fix bugs and formats that are inconsistent. <a href="https://github.com/codebendercc/eratosthenes/commits/v2-merged-hotfix">ref</a></li>
+  <li>Week 12, Wed - Fixes some bugs in migrations for getExamples and getExampleCode commands <a href="https://github.com/codebendercc/eratosthenes/pull/75">PR</a></li>
 </ul>
 
 <h4 id="contribution-to-minor-project-teammates">Contribution to minor project Teammates</h4>
@@ -691,7 +748,8 @@
   <li>(Merged) PR <a href="https://github.com/TEAMMATES/teammates/pull/4953">#4953</a> for issue <a href="https://github.com/TEAMMATES/teammates/issues/4950">#4950</a> -  <a href="https://github.com/TEAMMATES/teammates/issues/4950#issuecomment-194369745">Bug Analysis</a>- Week 8, Wed</li>
   <li>Raised <a href="https://github.com/TEAMMATES/teammates/issues/4975">#4975</a></li>
   <li>(Merged) PR <a href="https://github.com/TEAMMATES/teammates/pull/4988">#4988</a> for issue <a href="https://github.com/TEAMMATES/teammates/issues/4631">#4631</a> - Week 8, Sun</li>
-  <li>Add code coverage for js tests in PR <a href="https://github.com/TEAMMATES/teammates/pull/5054">#5054</a> for issue <a href="https://github.com/TEAMMATES/teammates/issues/5040">#5040</a> - Week 9, Sat</li>
+  <li>(Merged) Add code coverage for js tests in PR <a href="https://github.com/TEAMMATES/teammates/pull/5054">#5054</a> for issue <a href="https://github.com/TEAMMATES/teammates/issues/5040">#5040</a> - Week 9, Sat</li>
+  <li>Raised <a href="https://github.com/TEAMMATES/teammates/issues/5105">#5105</a> - Week 10, Wed</li>
 </ul>
 
 <h6 id="past-contribution-to-hubturbo">Past Contribution to HubTurbo</h6>
@@ -734,7 +792,9 @@
   <li>Week 8, Sun - Write a <a href="http://blog.gisonrg.me/2016/create-github-webhook-handler/">blog post</a> to share my learning experience on developing my first node package <a href="https://github.com/Gisonrg/express-github-webhook/">express-github-webhook</a></li>
   <li>Week 9, Wed - Write a <a href="http://blog.gisonrg.me/2016/automation-tool-gulp-vs-grunt/">blog post</a> on JavaScript task runner</li>
   <li>Week 9, Sat - Found a bug in <a href="blanketjs.org">Blanket.js</a> when adding code coverage for TEAMMATES. Try fix it in <a href="https://github.com/alex-seville/blanket/pull/557">PR</a> (Merged on Week 9, Sun)</li>
-  <li>(Ongoing) Working on a JavaScript project for module <a href="https://github.com/Gisonrg/ER-diagram-editor">CS4224</a> to build a ER diagram editor.
+  <li>Week 10, Sun - Develop the Gulp file for build and deploy for the <a href="https://github.com/Gisonrg/ER-diagram-editor">CS4224</a> project. Gain more insights on Gulp’s asyn tasks execution and stream flow. <a href="https://github.com/Gisonrg/ER-diagram-editor/blob/master/gulpfile.js">ref</a></li>
+  <li>Week 11, Tue - Write a <a href="http://blog.gisonrg.me/2016/why-we-need-one-line-module-in-node/">blog post</a> to discuss about “One-line” modules in Node eco-system.</li>
+  <li>Week 4 - Week 11, Sun - Develop the JavaScript project for module <a href="https://github.com/Gisonrg/ER-diagram-editor">CS4224</a> to build a ER diagram editor.
     <ul>
       <li>Gain experience in Angular, front-end development process and Gulp configuration in the project</li>
     </ul>
